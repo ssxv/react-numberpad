@@ -1,7 +1,26 @@
 {
   "name": "react-numberpad",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A react based on-screen number pad.",
+  "license": "MIT",
+  "keywords": [
+    "react-numberpad",
+    "numberpad",
+    "react-numpad",
+    "numpad",
+    "react",
+    "number",
+    "input"
+  ],
+  "author": "Satyendra Singh <satyendra1529singh@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssxv/react-numberpad.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ssxv/react-numberpad/issues"
+  },
+  "homepage": "https://github.com/ssxv/react-numberpad",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,8 +31,6 @@
     "deploy": "gh-pages -d examples/dist",
     "publish-demo": "npm run build && npm run deploy"
   },
-  "author": "",
-  "license": "ISC",
   "peerDependencies": {
     "react": "^16.3.0",
     "react-dom": "^16.3.0"
