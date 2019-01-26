@@ -1,0 +1,30 @@
+.numpad {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.numpad span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 32.3333%;
+    border: 1px solid #D8D8D8;
+}
+
+.numpad span:nth-child(2n){
+    border-right: 0;
+}
+
+.numpad span:nth-child(-n + 9){
+    border-bottom: 0;
+}
+
+.numpad span:nth-child(odd){
+    border-right: 0;
+}
+
+.numpad span:nth-child(3n){
+    border-right: 1px solid #D8D8D8;
+}
