@@ -1,6 +1,6 @@
 {
   "name": "react-numberpad",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A react based on-screen number pad.",
   "license": "MIT",
   "keywords": [
@@ -20,6 +20,7 @@
   "bugs": {
     "url": "https://github.com/ssxv/react-numberpad/issues"
   },
+  "typings": "dist/index.d.ts",
   "homepage": "https://github.com/ssxv/react-numberpad",
   "main": "dist/index.js",
   "scripts": {
