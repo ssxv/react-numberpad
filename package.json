@@ -12,7 +12,10 @@
         "number",
         "input"
     ],
-    "author": "Satyendra Singh <satyendra1529singh@gmail.com>",
+    "author": {
+        "name": "Satyendra Singh",
+        "email": "satyendraxv@gmail.com"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/ssxv/react-numberpad.git"
